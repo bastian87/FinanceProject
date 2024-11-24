@@ -61,3 +61,10 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+# Archivos específicos que siempre deben tener LF
+*.sh text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.ts text eol=lf
+
